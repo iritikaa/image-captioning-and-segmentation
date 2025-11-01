@@ -7,7 +7,7 @@
 In this project, I'll create a neural network architecture consisting of both CNNs (Encoder) and LSTMs (Decoder) to automatically generate captions from images.
 The network will be trained on the Microsoft Common Objects in COntext [(MS COCO)](http://cocodataset.org/#home) dataset. The image captioning model is displayed below.
 
-![Image Captioning Model](images/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
+![Image Captioning Model](Images/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
 
 
 After training the network, I will test the network on novel images!
@@ -52,7 +52,7 @@ jupyter notebook
 ### About MS COCO dataset
 The Microsoft **C**ommon **O**bjects in **CO**ntext (MS COCO) dataset is a large-scale dataset for scene understanding.  The dataset is commonly used to train and benchmark object detection, segmentation, and captioning algorithms.  
 
-![Sample Coco Example](images/coco-examples.jpg)
+![Sample Coco Example](Images/coco-examples.jpg)
 
 You can read more about the dataset on the [website](http://cocodataset.org/#home), [research paper](https://arxiv.org/pdf/1405.0312.pdf), or Appendix section at the end of this page.
 
@@ -180,24 +180,24 @@ This notebook contains the testing of the trained networks to generate captions 
 Here are some predictions from the model.
 
 ### Some good results
-![sample_171](images/sample_171.png?raw=true)<br/>
-![sample_440](images/sample_440.png?raw=true)<br/>
-![sample_457](images/sample_457.png?raw=true)<br/>
-![sample_002](images/sample_002.png?raw=true)<br/>
-![sample_029](images/sample_029.png?raw=true)<br/>
-![sample_107](images/sample_107.png?raw=true)<br/>
-![sample_202](images/sample_202.png?raw=true)
+![sample_171](Images/sample_171.png?raw=true)<br/>
+![sample_440](Images/sample_440.png?raw=true)<br/>
+![sample_457](Images/sample_457.png?raw=true)<br/>
+![sample_002](Images/sample_002.png?raw=true)<br/>
+![sample_029](Images/sample_029.png?raw=true)<br/>
+![sample_107](Images/sample_107.png?raw=true)<br/>
+![sample_202](Images/sample_202.png?raw=true)
 
 
 ### Some not so good results
 
-![sample_296](images/sample_296.png?raw=true)<br/>
-![sample_008](images/sample_008.png?raw=true)<br/>
-![sample_193](images/sample_193.png?raw=true)<br/>
-![sample_034](images/sample_034.png?raw=true)<br/>
-![sample_326](images/sample_326.png?raw=true)<br/>
-![sample_366](images/sample_366.png?raw=true)<br/>
-![sample_498](images/sample_498.png?raw=true)
+![sample_296](Images/sample_296.png?raw=true)<br/>
+![sample_008](Images/sample_008.png?raw=true)<br/>
+![sample_193](Images/sample_193.png?raw=true)<br/>
+![sample_034](Images/sample_034.png?raw=true)<br/>
+![sample_326](Images/sample_326.png?raw=true)<br/>
+![sample_366](Images/sample_366.png?raw=true)<br/>
+![sample_498](Images/sample_498.png?raw=true)
 
 ## Deploy and share image captioning service using Gradio
 
@@ -211,7 +211,7 @@ python gradio_main.py
 
 Access the service on local URL:  http://127.0.0.1:7860/
 
-![sample_498](images/gradio_demo.png)
+![sample_498](Images/gradio_demo.png)
 
 
 
